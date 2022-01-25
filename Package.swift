@@ -20,7 +20,7 @@ let package = Package(
         ),
         .library(
             name: "GoogleSignIn",
-            targets: ["GoogleSignIn"]
+            targets: ["GoogleSignInTarget"]
         )
     ],
     dependencies: [],
