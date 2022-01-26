@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "firebase-ios-sdk-binaries",
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "FirebaseAnalytics",
